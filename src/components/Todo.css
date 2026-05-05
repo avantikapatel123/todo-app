@@ -1,0 +1,98 @@
+body {
+  background-color: #111;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+.todo-container {
+  width: 420px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  text-align: center;
+}
+
+
+.todo-title {
+  color: #d2b48c; 
+  margin-bottom: 20px;
+}
+
+.todo-input {
+  padding: 10px;
+  width: 70%;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+  background: #2c2c2c;
+  color: white;
+}
+
+
+.add-btn {
+  padding: 10px 12px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 6px;
+  background-color: #a67c52;
+  color: white;
+  cursor: pointer;
+}
+
+.add-btn:hover {
+  background-color: #8b5e3c;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+
+.todo-item {
+  background: #2a2a2a;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.todo-text {
+  cursor: pointer;
+  color: white;
+}
+
+.todo-text.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+.btn {
+  margin-left: 5px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.edit-btn {
+  background: #555;
+  color: white;
+}
+
+.delete-btn {
+  background: #a67c52;
+  color: white;
+}
+.save-btn {
+  background: #888;
+  color: white;
+}
